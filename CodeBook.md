@@ -36,9 +36,9 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 - 'activity_labels.txt': Links the class labels with their activity name.
 
-- 'output/accel_data.csv': A csv containing standard deviation and mean features.
+- 'output/accel_data.txt': A csv containing standard deviation and mean features.
 
-- 'output/accel_data_avg.csv': Average values for the features by activity and subject. This is derived from the accel_data.csv dataset, and is simply an average for each feature by activity and subject.
+- 'output/accel_data_avg.txt': Average values for the features by activity and subject. This is derived from the accel_data.csv dataset, and is simply an average for each feature by activity and subject.
 
 
 ## Notes:

@@ -99,7 +99,7 @@ all_data_avg <- all_data %>%
 
 # Export tidy data --------------------------------------------------------
 
-write.csv(all_data, 'output/accel_data.csv', row.names = F)
-write.csv(all_data_avg, 'output/accel_data_avg.csv', row.names = F)
+write.table(all_data, 'output/accel_data.txt', row.names = F)
+write.table(all_data_avg, 'output/accel_data_avg.txt', row.names = F)
 
 
